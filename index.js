@@ -19,7 +19,7 @@ rl.question('Digite o nome do Herói: ', (name) => {
     const xp = Number(xpInput);
     let level;
 
-    switch (xp) {
+    switch (true) {
       case xp < 1000:
         level = "Ferro";
         break;
